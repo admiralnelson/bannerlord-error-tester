@@ -1,0 +1,22 @@
+<Module>
+    <Name value="ErrorTester"/>
+    <Id value="ErrorTester"/>
+    <Version value="v0.0.1"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+    </DependedModules>
+     <SubModules>
+         <SubModule>
+            <Name value="ErrorTester"/>
+            <DLLName value="ErrorTester.dll"/>             
+            <SubModuleClassType value="ErrorTester.SubModuleEntryPoint"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+    </Xmls>
+</Module>
